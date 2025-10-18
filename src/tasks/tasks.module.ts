@@ -3,9 +3,7 @@ import { TaskController } from './tasks.controller';
 import { TasksService } from './tasks.service';
 
 @Module({
-    controllers: [TaskController],
-    providers: [TasksService],
+  controllers: [TaskController],
+  providers: [TasksService],
 })
-export class TaskModule {
-    
-}
+export class TasksModule {}
